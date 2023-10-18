@@ -24,7 +24,19 @@ Install all the dependencies.
 pip3 install -r requirements.txt
 ```
 
-Run Jupyter Notebooks and explore in depth the available didactic notebook.
+Make sure you create a `.env` file with your IBM Cloud Credentials. You can start your free trial of the *watsonx.ai* [here](https://dataplatform.cloud.ibm.com/registration/stepone?context=wx).
+
+Your `.env` file must have the following env variables:
+
+```shell
+API_KEY="<your_api_key>"
+IBM_CLOUD_URL="https://us-south.ml.cloud.ibm.com"
+PROJECT_ID="<your_project_id>"
+```
+
+Note that you must replace the placeholders above with your actual credentials - API Key and Project ID.
+
+Now you can finally run Jupyter Notebooks and explore in depth the available didactic notebook.
 
 ```shell
 jupyter notebook
