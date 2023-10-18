@@ -24,7 +24,7 @@ Install all the dependencies.
 pip3 install -r requirements.txt
 ```
 
-Make sure you create a `.env` file with your IBM Cloud Credentials. You can start your free trial of the *watsonx.ai* [here](https://dataplatform.cloud.ibm.com/registration/stepone?context=wx).
+Make sure you create a `.env` file with your IBM Cloud Credentials. You can start your free trial of the **watsonx.ai** [here](https://dataplatform.cloud.ibm.com/registration/stepone?context=wx).
 
 Your `.env` file must have the following env variables:
 
