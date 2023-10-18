@@ -1,0 +1,9 @@
+ibm-watson-machine-learning==1.0.311
+numpy==1.23.5
+PyMuPDF==1.22.3
+python-dotenv==1.0.0
+scikit-learn==1.2.2
+tensorflow==2.13.0
+tensorflow-hub==0.13.0
+jupyter==1.0.0
+matplotlib==3.8.0
